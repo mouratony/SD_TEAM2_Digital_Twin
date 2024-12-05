@@ -1,1 +1,2 @@
-# SD_TEAM2_Digital_Twin
+# DIGITAL TWIN STRUCTURE
+## UMB Senior Design Project - TEAM 2 
