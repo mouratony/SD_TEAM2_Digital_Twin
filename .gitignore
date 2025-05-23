@@ -1,0 +1,6 @@
+.DS_Store
+/dataset
+/ESP32/codes/dataset
+/ESP32/codes/.vscode
+/ESP32/codes/keras_tuner_dir
+ESP32/codes/pymakr.conf
