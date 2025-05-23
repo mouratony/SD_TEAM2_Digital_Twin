@@ -1,3 +1,33 @@
+# ESP32 Firmware Setup (macOS)
+
+## 🔹 Prerequisites
+Ensure the following is installed:
+- Python 3
+- `esptool.py` (install with: `pip3 install esptool`)
+
+## 🔹 Firmware Setup
+
+To erase and flash MicroPython firmware onto your ESP32, follow these steps:
+
+1. **Navigate to the firmware directory in terminal**.
+2. **Run the provided setup script:**
+
+```bash
+source setup_firmware_esp32_MAC.sh <firmware_file.bin>
+```
+
+Replace <firmware_file.bin> with your actual firmware file name.
+
+This script will:
+
+* Check your OS (must be macOS).
+
+* Erase the ESP32 flash memory.
+
+* Flash the new firmware onto the ESP32.
+
+## 🔷 Serial Monitor (ESP32 Output)
+
 Run The following to see the output of my esp32:
 
 ```screen <usb_port_connected_to_esp32> 115200```
