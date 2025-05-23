@@ -75,6 +75,7 @@ curl -O https://raw.githubusercontent.com/micropython/micropython-lib/master/mic
 2. Upload to ESP32
 Using PyMakr (VS Code) upload the downloaded aioble folder directly to your ESP32 filesystem. The resulting structure should look like this:
 
+```bash
 ESP32 filesystem:
 ├── aioble/
 │   ├── __init__.py
@@ -86,7 +87,7 @@ ESP32 filesystem:
 │   ├── peripheral.py
 │   ├── security.py
 │   └── server.py
-
+```
 ## ✅ BLE Communication Setup and Validation Test
 
 This step ensures your ESP32 can communicate via Bluetooth Low Energy (BLE) clearly and reliably with your Mac. 
